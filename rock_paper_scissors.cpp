@@ -50,7 +50,7 @@ int main()
     cout << "**************************************" << endl;
     cout << "** Lets play Rock, Paper, Scissors! **" << endl;
     cout << "**************************************" << endl;
-    // Ask the player to choose Rock, Paper, Scissors
+    // ask the player to choose Rock, Paper, Scissors
     cout << "Press 1 for Rock, 2 for Paper, 3 for Scissors:" << endl;
     cin >> choice;
     // gets a random number between 1 and 3 and tell the player what was chosen
@@ -105,6 +105,5 @@ int main()
          cin >> ch;
          system("CLS");
          }while(ch == 'Y' || ch == 'y');
-    //system("pause"); took this out so that the loop ends it with out you needing to hit another button
     return 0;
 }
