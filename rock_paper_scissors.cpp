@@ -26,8 +26,8 @@ using namespace std;
 int main()
 {
     const char PROGRAMMER[] = "Patrick Wilson";
-	const int  LAB_NUM      = 3;
-	const char LAB_NAME[]   = "Rock Paper Scissors";
+    const int  LAB_NUM      = 3;
+    const char LAB_NAME[]   = "Rock Paper Scissors";
 
     char ch;
     // set up my variables for the scores
@@ -38,7 +38,7 @@ int main()
     // start of game loop, the loop will run until ch == n
     do{
     int choice;
-   // output heading
+    // output heading
     cout << left;
     cout << "**************************************************\n";
     cout << "*  PROGRAMMED BY : "  << PROGRAMMER << endl;
@@ -107,10 +107,4 @@ int main()
          }while(ch == 'Y' || ch == 'y');
     //system("pause"); took this out so that the loop ends it with out you needing to hit another button
     return 0;
-    //Bug list:
-    // Hitting any alphabet character when it asks for 1 2 or 3  will instantly close the program
-    // Same bug happens when you enter any alphabet character except y when it asks you if you would like to play again
-    // putting a number then y when asked for 1 2 or 3 will run the game then restart
-    // putting y then a number when the game ask you if you want to play again will do so and chose the number automaticly
-
 }
